@@ -1,5 +1,5 @@
 <?php
-function arrayy($arr){
+function aaray(){
  
     $arr = array(1, 3, 5, 7, 9);
 
@@ -7,4 +7,5 @@ $result = array_product($arr);
 
 return $result;
 }
-echo arrayy(1,3,5,7,9);
+
+echo aaray(array(1, 3, 5, 7, 9)),"\n";
